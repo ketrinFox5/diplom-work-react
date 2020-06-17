@@ -1,0 +1,274 @@
+//  Speсification
+
+$black-main-color: #333D51;
+$main-color-accent:  #004FEC;
+
+body {
+    font-family: 'Proxima Nova';
+    margin: 0;
+    padding: 0;
+    color: $black-main-color;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+.container {
+    padding: 0 405px;
+}
+
+//  Header
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 0;
+}
+
+.logo {
+    font-weight: bold;
+    color: $black-main-color;
+    font-size: 25px;
+    line-height: 30px;
+
+    & span {
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        display: block;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 284px;
+    justify-content: space-between;
+
+    &__link {
+        color: $black-main-color;
+        font-size: 18px;
+        line-height: 22px;
+
+        &_active {
+            color: $main-color-accent;
+        }
+    }
+
+}
+
+// News Block
+
+.main{
+
+    &__link {
+        color: $main-color-accent;
+        
+    }
+
+    &__link:hover {
+        border-bottom: 1px solid  $main-color-accent;
+    }
+    
+}
+
+.title {
+    font-size: 60px;
+    line-height: 93%;
+    font-weight: normal;
+
+    & span {
+        color: $main-color-accent;
+    }
+
+    & &__start {
+        display: block;
+        color: $black-main-color;
+    }
+}
+
+.news {
+
+    &__block {
+        margin-bottom: 60px;
+    }
+
+    &__title {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: normal;
+       
+        & a {
+            color: $black-main-color;
+            box-sizing: border-box;
+            display: block; padding: 0 23px;
+            border-left: 2px solid  $main-color-accent;
+        }
+
+        & a:hover {
+           color: #FFFFFF; 
+           background: $main-color-accent;
+        }
+
+    }
+
+
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+        flex-basis: 30%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-left: 25px;
+    }
+
+    &__source {
+        color: rgba(51, 61, 81, 0.5);
+        flex-basis: 50%;
+        text-transform: lowercase;
+    }
+
+    &__date {
+        flex-basis: 10%;
+        color: rgba(51, 61, 81, 0.5);
+
+        & span:first-child {
+            font-size: 30px;
+            line-height: 37px;
+            color: $black-main-color;
+            padding-right: 7px;
+        }
+
+        & span:last-child {
+            padding-left: 7px;
+        }
+    }
+
+    &__detail {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    &__info {
+        width: 30%;
+        margin-right: 30px;
+
+        & h1 {
+            line-height: 73px;
+            margin-top: 0;
+        }
+
+        .news__date {
+            margin-top: 30px;
+        }
+    }
+
+    &__content {
+        width: 65%;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    &__img {
+        max-height: 380px;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    &__loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+// Contacts Page
+
+.contacts {
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__link {
+        color: $black-main-color;
+    }
+
+    &__img {
+        max-height: 340px;
+    }
+
+
+    &__info {
+
+        display: flex;
+        flex-direction: column;
+
+        & .news__title {
+            margin: 50px 0 25px 0;
+            
+           & span {
+            display: block;
+            }
+        }
+    }
+
+    &__footer {
+        margin-top: 50px;
+            
+        & p:first-child  {
+            color: rgba(51, 61, 81, 0.5);
+            margin-bottom: 25px;
+        }
+
+        & p:last-child  a {
+            color: $main-color-accent;
+        }       
+    }
+}
+
+//  Footer 
+
+.footer {
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0 60px;
+}
