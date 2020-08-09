@@ -8,7 +8,7 @@ const DateNews = props => {
 
     const date = Date.parse(props.time);
     const dateObj = new Date(date);
-    const month = addZero(dateObj.getMonth());
+    const month = addZero(dateObj.getMonth() + 1);
     const day = addZero(dateObj.getDate());
 
     return(
