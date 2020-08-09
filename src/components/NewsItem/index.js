@@ -8,7 +8,7 @@ const NewsItem = props => {
         <div className="news__item">
             <h4 className="news__title">
                 <NavLink to={`/news/${props.item.title}`} >
-                    {props.item.description}
+                    {props.item.description || props.item.title}
                 </NavLink>
             </h4>
             <div className="news__footer">

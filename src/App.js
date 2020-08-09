@@ -22,7 +22,8 @@ const  App=() => {
     .then(function(response) {
         return response.json();
     }).then((response) =>{
-      setNews(response.articles);
+      const formattedActicles = response.articles.map(ac =>({ ...ac, title: ac.title.replace(/%/gi, 'percent')}));
+      setNews(formattedActicles);
     })
   },[url])
 
