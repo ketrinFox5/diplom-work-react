@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "de5e24c25098e0513097c15c3777c50f",
+    "revision": "30a2072f02aa41ff6b6b7debf86839e8",
     "url": "/diplom-work-react/index.html"
   },
   {
