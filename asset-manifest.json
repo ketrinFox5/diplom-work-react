@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ketrinFox5/diplom-work-react/static/css/main.b75ac671.chunk.css",
-    "main.js": "/ketrinFox5/diplom-work-react/static/js/main.671d73b5.chunk.js",
-    "main.js.map": "/ketrinFox5/diplom-work-react/static/js/main.671d73b5.chunk.js.map",
-    "runtime-main.js": "/ketrinFox5/diplom-work-react/static/js/runtime-main.bb45c30b.js",
-    "runtime-main.js.map": "/ketrinFox5/diplom-work-react/static/js/runtime-main.bb45c30b.js.map",
-    "static/js/2.849c8c49.chunk.js": "/ketrinFox5/diplom-work-react/static/js/2.849c8c49.chunk.js",
-    "static/js/2.849c8c49.chunk.js.map": "/ketrinFox5/diplom-work-react/static/js/2.849c8c49.chunk.js.map",
-    "index.html": "/ketrinFox5/diplom-work-react/index.html",
-    "precache-manifest.d05e3f0a7209a61f09f0bd53fd19d9f0.js": "/ketrinFox5/diplom-work-react/precache-manifest.d05e3f0a7209a61f09f0bd53fd19d9f0.js",
-    "service-worker.js": "/ketrinFox5/diplom-work-react/service-worker.js",
-    "static/css/main.b75ac671.chunk.css.map": "/ketrinFox5/diplom-work-react/static/css/main.b75ac671.chunk.css.map",
-    "static/js/2.849c8c49.chunk.js.LICENSE.txt": "/ketrinFox5/diplom-work-react/static/js/2.849c8c49.chunk.js.LICENSE.txt",
-    "static/media/stylesheet.css": "/ketrinFox5/diplom-work-react/static/media/ProximaNova-Regular.89ceb2db.svg"
+    "main.css": "/diplom-work-react/static/css/main.c9b47495.chunk.css",
+    "main.js": "/diplom-work-react/static/js/main.44a88401.chunk.js",
+    "main.js.map": "/diplom-work-react/static/js/main.44a88401.chunk.js.map",
+    "runtime-main.js": "/diplom-work-react/static/js/runtime-main.8a987600.js",
+    "runtime-main.js.map": "/diplom-work-react/static/js/runtime-main.8a987600.js.map",
+    "static/js/2.849c8c49.chunk.js": "/diplom-work-react/static/js/2.849c8c49.chunk.js",
+    "static/js/2.849c8c49.chunk.js.map": "/diplom-work-react/static/js/2.849c8c49.chunk.js.map",
+    "index.html": "/diplom-work-react/index.html",
+    "precache-manifest.0a3631c0942ae1bd9fae3ef14518b15e.js": "/diplom-work-react/precache-manifest.0a3631c0942ae1bd9fae3ef14518b15e.js",
+    "service-worker.js": "/diplom-work-react/service-worker.js",
+    "static/css/main.c9b47495.chunk.css.map": "/diplom-work-react/static/css/main.c9b47495.chunk.css.map",
+    "static/js/2.849c8c49.chunk.js.LICENSE.txt": "/diplom-work-react/static/js/2.849c8c49.chunk.js.LICENSE.txt",
+    "static/media/stylesheet.css": "/diplom-work-react/static/media/ProximaNova-Regular.89ceb2db.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb45c30b.js",
+    "static/js/runtime-main.8a987600.js",
     "static/js/2.849c8c49.chunk.js",
-    "static/css/main.b75ac671.chunk.css",
-    "static/js/main.671d73b5.chunk.js"
+    "static/css/main.c9b47495.chunk.css",
+    "static/js/main.44a88401.chunk.js"
   ]
 }
