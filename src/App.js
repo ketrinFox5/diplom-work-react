@@ -14,7 +14,7 @@ const  App=() => {
     return index < 6 ?  item : null
   })
 
-  const url = 'http://newsapi.org/v2/top-headlines?' + 'country=us&' + 'apiKey=9babfe25f9334478ab5fa17bf649ffef';
+  const url = 'https://newsapi.org/v2/top-headlines?' + 'country=us&' + 'apiKey=9babfe25f9334478ab5fa17bf649ffef';
   
 
   useEffect(() => {
