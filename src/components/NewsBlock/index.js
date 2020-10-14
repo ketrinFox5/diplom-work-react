@@ -15,7 +15,7 @@ const NewsBlock = props => {
             {props.content.map(item => {
                 return(
                     <NewsItem
-                    key = {item.title}
+                    key = {item.name}
                     item={item}
                     />  
                 )

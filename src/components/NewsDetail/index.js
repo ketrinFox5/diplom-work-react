@@ -7,24 +7,24 @@ import Loader from '../Loader';
 const NewsDetail = props => {
     const path = props.location.pathname.split("/");
     const urlTitle = path[path.length - 1];
-    const currentNews = props.news && props.news.find(news => news.title === urlTitle);
+    const currentNews = props.news && props.news.find(news => news.name === urlTitle);
     return currentNews ? (
         <div className="news__detail">
             <div className="news__info">
             <PageTitle
-            title={currentNews.title}
+            title={currentNews.name}
             />
             <a href={currentNews.url} className="news__source" target="_blank">
-                    {currentNews.source.name}
+                    {currentNews.provider[0].name}
                 </a>
                 <DateNews
-                time = {currentNews.publishedAt}
+                time = {currentNews.datePublished}
                 />
             </div>
             <div className="news__content">
-                <img src={currentNews.urlToImage} className="news__img"/>
+                <img src={currentNews.image.thumbnail.contentUrl} className="news__img"/>
                 <p>
-                    {currentNews.content}
+                    {currentNews.description}
                 </p>
             </div>
         </div>

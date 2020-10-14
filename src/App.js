@@ -14,19 +14,49 @@ const  App=() => {
     return index < 6 ?  item : null
   })
 
-  const url = 'https://newsapi.org/v2/top-headlines?' + 'country=us&' + 'apiKey=9babfe25f9334478ab5fa17bf649ffef';
+  const request = {
+   "URL" : "https://bing-news-search1.p.rapidapi.com/news?mkt=en-US&safeSearch=Off&category=ScienceAndTechnology&textFormat=Raw",
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "bing-news-search1.p.rapidapi.com",
+		"x-rapidapi-key": "b566ab13e3mshb2660fdb884e553p111656jsn03abd125b9e5",
+		"x-bingapis-sdk": "true"
+  }}
   
 
   useEffect(() => {
-    fetch(url)
+    fetch(request.URL, {headers:request.headers})
     .then(function(response) {
         return response.json();
     }).then((response) =>{
-      const formattedActicles = response.articles.map(ac =>({ ...ac, title: ac.title.replace(/%/gi, 'percent')}));
+      const formattedActicles = response.value.map(ac =>({ ...ac, name: ac.name.replace(/%/gi, 'percent')}));
       setNews(formattedActicles);
     })
-  },[url])
+  },[])
+  // var unirest = require("unirest");
 
+  // var req = unirest("GET", "https://bing-news-search1.p.rapidapi.com/news");
+  
+  // req.query({
+  //   "mkt": "en-US",
+  //   "safeSearch": "Off",
+  //   "category": "ScienceAndTechnology",
+  //   "textFormat": "Raw"
+  // });
+  
+  // req.headers({
+  //   "x-rapidapi-host": "bing-news-search1.p.rapidapi.com",
+  //   "x-rapidapi-key": "b566ab13e3mshb2660fdb884e553p111656jsn03abd125b9e5",
+  //   "x-bingapis-sdk": "true",
+  //   "useQueryString": true
+  // });
+  
+  
+  // req.end(function (res) {
+  //   if (res.error) throw new Error(res.error);
+  
+  //   console.log(res.body);
+  // });
   return (
     <div className="App">
 

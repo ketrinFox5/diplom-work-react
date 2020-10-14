@@ -7,16 +7,16 @@ const NewsItem = props => {
     return(
         <div className="news__item">
             <h4 className="news__title">
-                <NavLink to={`/news/${props.item.title}`} >
-                    {props.item.description || props.item.title}
+                <NavLink to={`/news/${props.item.name}`} >
+                    {props.item.name}
                 </NavLink>
             </h4>
             <div className="news__footer">
                 <a href={props.item.url} className="news__source" target="_blank">
-                    {props.item.source.name}
+                    {props.item.provider[0].name}
                 </a>
                 <DateNews
-                time = {props.item.publishedAt}
+                time = {props.item.datePublished}
                 />
             </div>
         </div>
