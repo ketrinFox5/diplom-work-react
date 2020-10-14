@@ -12,7 +12,7 @@ const MainPage = props =>{
             />
             <NavLink to='/news' 
             className="main__link">
-                 Быть в курсе событий
+                Keep abreast of events
             </NavLink>
         </div>
     )

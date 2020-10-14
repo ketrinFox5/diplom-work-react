@@ -9,9 +9,9 @@ const Contacts = () => {
                 </a>
                 <h4 className="news__title">
                     <a href="https://t.me/ketrinkash" target="_blank">
-                        Кашлева 
+                        Kashleva
                         <span>
-                            Екатерина
+                            Katerina
                         </span>
                     </a>
                 </h4>
@@ -20,7 +20,7 @@ const Contacts = () => {
                 </a>
                 <div className="contacts__footer">
                 <p>
-                    JavaScript разработчик
+                    JavaScript developer
                 </p>
                 <p>
                     ES5, ES6, <a href="https://ru.reactjs.org/" target="_blank">React</a>

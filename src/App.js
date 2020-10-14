@@ -64,8 +64,7 @@ const  App=() => {
         path='/'
         exact
         component={()=><MainPage
-          title='Всегда
-          свежие новости'
+          title='Always fresh news'
           content={newsMain}
         />}
         />
@@ -73,8 +72,7 @@ const  App=() => {
         path='/news'
         exact
         component={()=><NewsBlock
-          title="Быть 
-          в курсе событий"
+          title="Keep abreast of events"
           content={news}
         />}
         />

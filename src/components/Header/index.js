@@ -9,7 +9,7 @@ const Header = () => {
             to="/"
             className="logo"
              >
-                Новостник
+                News Portal
             </NavLink>
             <ul className='menu'>
                 <li className="menu__item">
@@ -19,7 +19,7 @@ const Header = () => {
                 className="menu__link"
                 activeClassName={'menu__link_active'}
                 >
-                    Главная
+                    Main
                 </NavLink>
                 </li>
                 <li className="menu__item">
@@ -28,7 +28,7 @@ const Header = () => {
                 className="menu__link"
                 activeClassName={'menu__link_active'}
                 >
-                    Новости
+                    News
                 </NavLink>
                 </li>
                 <li className="menu__item">
@@ -37,7 +37,7 @@ const Header = () => {
                 className="menu__link"
                 activeClassName={'menu__link_active'}
                 >
-                    Контакты
+                    Contacts
                 </NavLink>
                 </li>
             </ul>

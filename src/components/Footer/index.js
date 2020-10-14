@@ -8,19 +8,19 @@ const Footer = () => {
             to="/"
             className="logo"
              >
-                Новостник
+                News Portal
                 <span>
                     Single Page Application
                 </span>
             </NavLink>
             <p>
-                Дипломный проект
+                Diplom work
             </p>
             <p className="logo">
                 <span className="text-right">
                     Made by
                 </span>
-                Катерина Кашлева
+                Katerina Kashleva
             </p>
         </footer>
     )
